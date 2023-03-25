@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.game-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.emoji-container {
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+}
+
+.category-btn {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    padding: 10px 24px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.category-btn:hover {
+    background-color: #45a049;
+}
